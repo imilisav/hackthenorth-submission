@@ -1,7 +1,11 @@
-const Express = require('express');
-const app = Express();
+const express = require('express');
+const app = express();
 
+app.use(express.static('../client/htn-app/build'));
 
+app.get('/', (req, res) => {
+    res.sendFile('../client/htn-app/build/index.html')
+});
 
 app.listen(8080, () => {
     console.log('Server is running!')
