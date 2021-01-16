@@ -8,8 +8,15 @@ const matches = require('./data/matches.json');
 
 app.use(express.static('../client/htn-app/build'));
 
-app.get('/users', (req, res) => {
-    res.json(users)
+app.get('/users/:id', (req, res) => {
+    console.log(req.params.id)
+    for(obj in users.users) {
+        if(users.users[obj].ID == req.params.id) {
+            console.log('found')
+            return res.json(users.users[obj])
+        }
+    }
+    res.json({error: "user not found"})
 });
 
 app.get('/recruiter', (req, res) => {
