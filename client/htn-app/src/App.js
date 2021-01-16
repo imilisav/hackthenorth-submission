@@ -3,15 +3,16 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
+
+import LandingPage from './views/LandingPage'
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/"></Route>
+          <Route path="/" component={LandingPage}></Route>
           <Route path="/login"></Route>
           <Route path="/register"></Route>
           <Route path="/profile"></Route>
