@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "name": "Ilija Milisav",
+            "current_role": "Software Developer",
+            "company": "Blackberry",
+            "skills": [
+                "Java", "Android", "SDLC"
+            ],
+            "total_experience": "3 years"
+
+        },
+        {
+            "name": "Danilo Vladicic",
+            "current_role": "Software Developer",
+            "company": "NCR",
+            "skills": [
+                "Java", "C++", "Agile"
+            ],
+            "total_experience": "1 year"
+
+        }
+    ]
+}

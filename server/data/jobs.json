@@ -1,0 +1,20 @@
+{
+    "jobs" : [
+        {
+            "title": "Software Developer 1",
+            "company": "Google",
+            "recruiter": "Joan Smith",
+            "min_experience": 0,
+            "max_experience": 4,
+            "description": "As a software developer at google you will be doing all sorts of work"
+        },
+        {
+            "title": "Business Administrator",
+            "company": "Google",
+            "recruiter": "Joan Smith",
+            "min_experience": 2,
+            "max_experience": 4,
+            "description": "As a Business Administrator at google you will be doing all sorts of work"
+        }
+    ]
+}
